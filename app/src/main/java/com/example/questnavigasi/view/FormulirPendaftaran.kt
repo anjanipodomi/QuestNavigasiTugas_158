@@ -47,6 +47,16 @@ fun FormulirPendaftaran(navController: NavController) {
             }
             Spacer(modifier = Modifier.height(12.dp))
             Text("Status Perkawinan", color = Dongker)
+            Row {
+                listOf("Janda", "Lajang", "Duda").forEach {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(selected = status == it, onClick = { status = it })
+                        Text(it)
+
+                    }
+                }
+            }
+
         }
     }
 }

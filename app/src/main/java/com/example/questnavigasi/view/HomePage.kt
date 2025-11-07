@@ -25,6 +25,15 @@ fun HomePage(navController: NavController) {
                 contentDescription = null,
                 modifier = Modifier.size(120.dp)
             )
+            Text("MOBILE APP", color = Dongker, fontSize = 18.sp)
+            Text("2025", color = Dongker, fontSize = 18.sp)
+
+            Spacer(modifier = Modifier.height(48.dp))
+            Text("Anjani Dihapsari", color = Dongker)
+            Text("20230140158", color = Dongker)
+
+            Spacer(modifier = Modifier.height(32.dp))
+
         }
     }
 }

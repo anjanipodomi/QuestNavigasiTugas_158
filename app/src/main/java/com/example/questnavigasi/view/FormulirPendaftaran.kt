@@ -103,5 +103,13 @@ fun CustomDialog(
     status: String,
     alamat: String
 ) {
+    AlertDialog(
+        onDismissRequest = { onDismiss() },
+        confirmButton = {
+            TextButton(onClick = { onDismiss() }) {
+                Text("OK", color = Dongker)
 
+
+            }
+        }
 }

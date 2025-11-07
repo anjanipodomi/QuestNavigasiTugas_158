@@ -52,11 +52,10 @@ fun FormulirPendaftaran(navController: NavController) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         RadioButton(selected = status == it, onClick = { status = it })
                         Text(it)
-
                     }
                 }
             }
-
+            Spacer(modifier = Modifier.height(12.dp))
         }
     }
 }

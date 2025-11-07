@@ -37,6 +37,14 @@ fun FormulirPendaftaran(navController: NavController) {
             )
             Spacer(modifier = Modifier.height(12.dp))
             Text("Jenis Kelamin", color = Dongker)
+            Row {
+                listOf("Laki-laki", "Perempuan").forEach {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        RadioButton(selected = gender == it, onClick = { gender = it })
+                        Text(it)
+                    }
+                }
+            }
         }
     }
 }

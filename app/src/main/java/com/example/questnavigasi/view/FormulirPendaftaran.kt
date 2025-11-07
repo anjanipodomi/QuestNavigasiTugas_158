@@ -82,5 +82,15 @@ fun FormulirPendaftaran(navController: NavController) {
                 }
             }
         }
+        //Pop Up
+        if (showDialog) {
+            CustomDialog(
+                onDismiss = { showDialog = false },
+                nama = nama,
+                gender = gender,
+                status = status,
+                alamat = alamat
+            )
+        }
     }
 }

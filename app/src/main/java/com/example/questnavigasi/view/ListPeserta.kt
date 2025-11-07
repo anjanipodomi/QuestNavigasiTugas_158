@@ -33,3 +33,6 @@ fun ListPeserta(navController: NavController) {
         }
     }
 }
+
+@Composable
+fun PesertaCard(nama: String, gender: String, status: String, alamat: String)

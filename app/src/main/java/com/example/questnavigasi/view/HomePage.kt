@@ -33,7 +33,12 @@ fun HomePage(navController: NavController) {
             Text("20230140158", color = Dongker)
 
             Spacer(modifier = Modifier.height(32.dp))
-
+            Button(
+                onClick = { navController.navigate("listPeserta") },
+                colors = ButtonDefaults.buttonColors(containerColor = Dongker)
+            ) {
+                Text("Masuk", color = androidx.compose.ui.graphics.Color.White)
+            }
         }
     }
 }

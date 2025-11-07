@@ -5,3 +5,6 @@ enum class Screen {
     listPeserta,
     formulir
 }
+
+@Composable
+fun DataApp(navController: NavHostController = rememberNavController())

@@ -35,6 +35,8 @@ fun FormulirPendaftaran(navController: NavController) {
                 label = { Text("Nama Lengkap") },
                 modifier = Modifier.fillMaxWidth()
             )
+            Spacer(modifier = Modifier.height(12.dp))
+            Text("Jenis Kelamin", color = Dongker)
         }
     }
 }

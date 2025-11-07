@@ -56,6 +56,14 @@ fun FormulirPendaftaran(navController: NavController) {
                 }
             }
             Spacer(modifier = Modifier.height(12.dp))
+            OutlinedTextField(
+                value = alamat,
+                onValueChange = { alamat = it },
+                label = { Text("Alamat") },
+                modifier = Modifier.fillMaxWidth(),
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Text)
+            )
+
         }
     }
 }

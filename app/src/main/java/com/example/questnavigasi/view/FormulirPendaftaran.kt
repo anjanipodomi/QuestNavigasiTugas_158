@@ -67,8 +67,13 @@ fun FormulirPendaftaran(navController: NavController) {
             Row(
                 horizontalArrangement = Arrangement.SpaceBetween,
                 modifier = Modifier.fillMaxWidth()
-            )
+            ) {
+                Button(
+                    onClick = { navController.navigate("homePage") },
+                    colors = ButtonDefaults.buttonColors(containerColor = Dongker)
+                )
 
+            }
         }
     }
 }

@@ -39,5 +39,12 @@ fun PesertaCard(nama: String, gender: String, status: String, alamat: String) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         elevation = CardDefaults.cardElevation(4.dp)
-    )
+    ) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text("Nama Lengkap: $nama", color = Dongker, fontWeight = FontWeight.Bold)
+            Text("Jenis Kelamin: $gender", color = Dongker)
+            Text("Status: $status", color = Dongker)
+            Text("Alamat: $alamat", color = Dongker)
+        }
+    }
 }

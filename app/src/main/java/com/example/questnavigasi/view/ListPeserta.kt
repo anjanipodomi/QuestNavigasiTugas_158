@@ -35,4 +35,9 @@ fun ListPeserta(navController: NavController) {
 }
 
 @Composable
-fun PesertaCard(nama: String, gender: String, status: String, alamat: String)
+fun PesertaCard(nama: String, gender: String, status: String, alamat: String) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        elevation = CardDefaults.cardElevation(4.dp)
+    )
+}

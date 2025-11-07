@@ -28,6 +28,13 @@ fun FormulirPendaftaran(navController: NavController) {
                 .padding(20.dp)
                 .fillMaxSize(),
             horizontalAlignment = Alignment.Start
-        )
+        ) {
+            OutlinedTextField(
+                value = nama,
+                onValueChange = { nama = it },
+                label = { Text("Nama Lengkap") },
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
     }
 }

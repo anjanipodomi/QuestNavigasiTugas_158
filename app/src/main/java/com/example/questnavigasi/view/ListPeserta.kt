@@ -24,6 +24,10 @@ fun ListPeserta(navController: NavController) {
             ) {
                 Text("Beranda", color = androidx.compose.ui.graphics.Color.White)
             }
+            Button(
+                onClick = { navController.navigate("formulir") },
+                colors = ButtonDefaults.buttonColors(containerColor = Dongker)
+            )
 
         }
 

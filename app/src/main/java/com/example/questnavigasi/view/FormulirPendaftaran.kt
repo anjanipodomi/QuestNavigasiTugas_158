@@ -21,4 +21,13 @@ fun FormulirPendaftaran(navController: NavController) {
                 colors = TopAppBarDefaults.mediumTopAppBarColors(containerColor = Dongker)
             )
         }
-    )
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .padding(padding)
+                .padding(20.dp)
+                .fillMaxSize(),
+            horizontalAlignment = Alignment.Start
+        )
+    }
+}

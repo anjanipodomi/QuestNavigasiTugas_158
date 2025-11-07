@@ -20,6 +20,11 @@ fun HomePage(navController: NavController) {
                 color = Dongker, fontSize = 32.sp,
                 fontWeight = FontWeight.ExtraBold,
                 letterSpacing = 1.sp,)
+            Image(
+                painter = painterResource(id = R.drawable.logotgspam6),
+                contentDescription = null,
+                modifier = Modifier.size(120.dp)
+            )
         }
     }
 }

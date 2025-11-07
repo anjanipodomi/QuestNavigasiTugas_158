@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuestNavigasi</string>
+    <string name="home_title">CARD-LST</string>
+    <string name="welcome_text">Selamat Datang</string>
+    <string name="form_title">Formulir Pendaftaran</string>
+    <string name="button_home">Beranda</string>
+    <string name="button_submit">Submit</string>
+    <string name="popup_title">Data Berhasil Disimpan</string>
+    <string name="button_ok">OK</string>
+</resources>

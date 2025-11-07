@@ -12,6 +12,11 @@ fun HomePage(navController: NavController) {
                 .padding(24.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
-        )
+        ) {
+            Text("Selamat Datang", color = Dongker, fontSize = 24.sp)
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+        }
     }
 }

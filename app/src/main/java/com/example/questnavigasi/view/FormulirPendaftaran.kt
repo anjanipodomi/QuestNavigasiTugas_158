@@ -94,3 +94,14 @@ fun FormulirPendaftaran(navController: NavController) {
         }
     }
 }
+
+@Composable
+fun CustomDialog(
+    onDismiss: () -> Unit,
+    nama: String,
+    gender: String,
+    status: String,
+    alamat: String
+) {
+
+}

@@ -21,7 +21,10 @@ fun ListPeserta(navController: NavController) {
                 onClick = { navController.navigate("homePage") },
                 colors = ButtonDefaults.buttonColors(containerColor = Dongker),
                 modifier = Modifier.padding(end = 8.dp)
-            )
+            ) {
+                Text("Beranda", color = androidx.compose.ui.graphics.Color.White)
+            }
+
         }
 
     }

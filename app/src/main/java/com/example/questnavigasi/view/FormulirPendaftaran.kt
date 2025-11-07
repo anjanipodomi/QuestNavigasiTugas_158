@@ -45,6 +45,8 @@ fun FormulirPendaftaran(navController: NavController) {
                     }
                 }
             }
+            Spacer(modifier = Modifier.height(12.dp))
+            Text("Status Perkawinan", color = Dongker)
         }
     }
 }

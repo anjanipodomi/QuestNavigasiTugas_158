@@ -7,4 +7,11 @@ enum class Screen {
 }
 
 @Composable
-fun DataApp(navController: NavHostController = rememberNavController())
+fun DataApp(navController: NavHostController = rememberNavController()) {
+    Scaffold { padding ->
+        NavHost(
+            navController = navController,
+            startDestination = Screen.homePage.name,
+            modifier = Modifier.padding(padding)
+        )
+}

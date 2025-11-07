@@ -77,7 +77,9 @@ fun FormulirPendaftaran(navController: NavController) {
                 Button(
                     onClick = { showDialog = true },
                     colors = ButtonDefaults.buttonColors(containerColor = Dongker)
-                )
+                ) {
+                    Text("Submit", color = androidx.compose.ui.graphics.Color.White)
+                }
             }
         }
     }

@@ -16,7 +16,10 @@ fun HomePage(navController: NavController) {
             Text("Selamat Datang", color = Dongker, fontSize = 24.sp)
 
             Spacer(modifier = Modifier.height(16.dp))
-
+            Text("CARD-LST",
+                color = Dongker, fontSize = 32.sp,
+                fontWeight = FontWeight.ExtraBold,
+                letterSpacing = 1.sp,)
         }
     }
 }

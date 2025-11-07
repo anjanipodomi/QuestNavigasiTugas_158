@@ -16,6 +16,13 @@ fun ListPeserta(navController: NavController) {
         PesertaCard("Meidina Yasmin", "Perempuan", "Kawin", "Yogyakarta")
 
         Spacer(modifier = Modifier.height(40.dp))
+        Row{
+            Button(
+                onClick = { navController.navigate("homePage") },
+                colors = ButtonDefaults.buttonColors(containerColor = Dongker),
+                modifier = Modifier.padding(end = 8.dp)
+            )
+        }
 
     }
 }

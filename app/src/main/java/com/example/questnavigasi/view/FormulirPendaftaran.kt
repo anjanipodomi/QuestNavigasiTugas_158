@@ -108,8 +108,16 @@ fun CustomDialog(
         confirmButton = {
             TextButton(onClick = { onDismiss() }) {
                 Text("OK", color = Dongker)
-
-
+            }
+        },
+        title = { Text("Data Berhasil Disimpan", color = Dongker) },
+        text = {
+            Column {
+                Text("Nama: $nama")
+                Text("Jenis Kelamin: $gender")
+                Text("Status: $status")
+                Text("Alamat: $alamat")
             }
         }
+    )
 }

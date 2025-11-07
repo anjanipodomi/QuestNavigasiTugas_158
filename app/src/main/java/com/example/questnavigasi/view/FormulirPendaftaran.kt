@@ -8,3 +8,17 @@ fun FormulirPendaftaran(navController: NavController) {
     var status by remember { mutableStateOf("") }
     var alamat by remember { mutableStateOf("") }
     var showDialog by remember { mutableStateOf(false) }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    Text(
+                        "Formulir Pendaftaran",
+                        color = androidx.compose.ui.graphics.Color.White
+                    )
+                },
+                colors = TopAppBarDefaults.mediumTopAppBarColors(containerColor = Dongker)
+            )
+        }
+    )
